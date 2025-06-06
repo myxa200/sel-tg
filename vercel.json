@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/getReviews.ts": {
+      "runtime": "edge"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/getReviews",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}
